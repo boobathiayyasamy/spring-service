@@ -15,7 +15,7 @@ public class SpringServiceApplication {
 	
 	@GetMapping("/hello")
 	public String getHello() {
-		return "Hello Spring Service";
+		return "Hello Spring Service !";
 	}
 
 }
